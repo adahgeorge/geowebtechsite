@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.contact-us{
+    background-image: linear-gradient(
+     rgb(0, 114, 66),
+     rgb(4, 109, 91)  
+    );
+    color: white;
+    font-size: 20px;
+    padding: 40px;
+}
+
+form{
+    padding: 40px;
+}
+.form-group
+ label{
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.form-group input{
+    width: 320px;
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+input.invalid{
+    border: 1px solid red;
+}
+.error-hint{
+    color: red;
+}
